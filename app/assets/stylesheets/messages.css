@@ -95,38 +95,41 @@ main-header
 main-chat-space
 **************************/
 
-.main-chat-space {
+.messages {
+  background-color: #FAFAFA;
   height: calc(100vh - 100px - 90px);
-  background-color: #fafafa;
   padding: 46px 40px 0;
   overflow: scroll;
 }
 
-.posted-chat {
-  margin-bottom: 40px;
+.message {
+  margin: 10px 0 0 0;
 }
 
-.posted-chat-info {
+.upper-message{
   display: flex;
 }
 
-.name-who-posted {
-  font-size: 16px;
+.message-user {
   color: #434a54;
-  margin: 10px 10px 10px 0;
+  font-size: 16px;
 }
 
-.posted-time {
-  font-size: 12px;
+.message-date {
   color: #999;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.lower-message {
   margin-top: 10px;
 }
 
-.posted-text {
-  font-size: 14px;
+.message-content {
   color: #434a54;
+  font-size: 14px;
+  margin-bottom: 40px;
 }
-
 /**************************
 main-form
 **************************/
